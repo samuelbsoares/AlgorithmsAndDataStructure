@@ -2,7 +2,7 @@
  * TestLList.cpp
  *
  *  Created on: Sep 14, 2017
- *      Author: samue
+ *      Author: Samuel B. Soares
  */
 
 #include "LList.h"
