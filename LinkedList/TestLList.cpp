@@ -215,9 +215,7 @@ int main() {
 
 	// Finding the longest possible linked list using recursive algorithms
 	unsigned long long counter(0);
-	while (list.cons('a')) {
+	while (list.cons('a'))
 		++counter;
-//		cout << "Elements created: " << counter << "\n";
-	}
 	cout << "Elements created: " << counter << "\n";
 }
