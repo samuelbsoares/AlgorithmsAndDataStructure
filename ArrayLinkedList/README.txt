@@ -3,7 +3,7 @@ Makefile:
 	syntax: make all clean.
 
 Executables:
-	The first applies several tests to the class LList and generates an output file (output.exe)
+	The first applies several tests to the class LList and generates an output file (output.txt)
 	The former tests the maximum number of nodes created before crashing the program. It happened mostly after generating between 60 and 70 million nodes, than it crashed and displayed the result successfully.
 
 Tests:
