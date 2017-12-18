@@ -1,0 +1,73 @@
+
++====================== NUMBER OF COMPARISONS FOR ALPHA = 0.25 ====================+
+|       LINEAR |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        1.16667 |        1.16666 |        0.00001 |        0.99999 |
+|    Not Found |        1.38889 |        1.38348 |        0.00541 |        0.99611 |
+|    QUADRATIC |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        1.16268 |        1.16030 |        0.00238 |        0.99795 |
+|    Not Found |        1.37102 |        1.36080 |        0.01022 |        0.99255 |
+|  DOUBLE HASH |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        1.15073 |        1.15178 |       -0.00105 |        1.00091 |
+|    Not Found |        1.33333 |        1.32852 |        0.00481 |        0.99639 |
++==================================================================================+
+
++====================== NUMBER OF COMPARISONS FOR ALPHA = 0.50 ====================+
+|       LINEAR |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        1.50000 |        1.50617 |       -0.00617 |        1.00411 |
+|    Not Found |        2.50000 |        2.51064 |       -0.01064 |        1.00426 |
+|    QUADRATIC |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        1.44315 |        1.43240 |        0.01075 |        0.99255 |
+|    Not Found |        2.19315 |        2.14857 |        0.04458 |        0.97967 |
+|  DOUBLE HASH |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        1.38629 |        1.38279 |        0.00350 |        0.99747 |
+|    Not Found |        2.00000 |        2.00952 |       -0.00952 |        1.00476 |
++==================================================================================+
+
++====================== NUMBER OF COMPARISONS FOR ALPHA = 0.75 ====================+
+|       LINEAR |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        2.50000 |        2.50224 |       -0.00224 |        1.00090 |
+|    Not Found |        8.50000 |        8.35402 |        0.14598 |        0.98283 |
+|    QUADRATIC |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        2.01129 |        1.96385 |        0.04744 |        0.97641 |
+|    Not Found |        4.63629 |        4.46877 |        0.16753 |        0.96387 |
+|  DOUBLE HASH |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        1.84839 |        1.85817 |       -0.00977 |        1.00529 |
+|    Not Found |        4.00000 |        4.06157 |       -0.06157 |        1.01539 |
++==================================================================================+
+
++====================== NUMBER OF COMPARISONS FOR ALPHA = 0.85 ====================+
+|       LINEAR |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        3.83333 |        3.82406 |        0.00927 |        0.99758 |
+|    Not Found |       22.72223 |       21.34920 |        1.37303 |        0.93957 |
+|    QUADRATIC |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        2.47212 |        2.40028 |        0.07184 |        0.97094 |
+|    Not Found |        7.71379 |        7.43142 |        0.28236 |        0.96339 |
+|  DOUBLE HASH |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        2.23191 |        2.24985 |       -0.01794 |        1.00804 |
+|    Not Found |        6.66667 |        6.74419 |       -0.07753 |        1.01163 |
++==================================================================================+
+
++====================== NUMBER OF COMPARISONS FOR ALPHA = 0.90 ====================+
+|       LINEAR |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        5.50000 |        5.24646 |        0.25354 |        0.95390 |
+|    Not Found |       50.49998 |       45.23646 |        5.26352 |        0.89577 |
+|    QUADRATIC |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        2.85258 |        2.76940 |        0.08318 |        0.97084 |
+|    Not Found |       11.40258 |       11.03357 |        0.36901 |        0.96764 |
+|  DOUBLE HASH |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        2.55843 |        2.58042 |       -0.02199 |        1.00859 |
+|    Not Found |       10.00000 |       10.19321 |       -0.19321 |        1.01932 |
++==================================================================================+
+
++====================== NUMBER OF COMPARISONS FOR ALPHA = 0.95 ====================+
+|       LINEAR |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |       10.50000 |        9.32679 |        1.17321 |        0.88827 |
+|    Not Found |      200.49990 |      138.00609 |       62.49381 |        0.68831 |
+|    QUADRATIC |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        3.52073 |        3.42561 |        0.09512 |        0.97298 |
+|    Not Found |       22.04573 |       21.12233 |        0.92340 |        0.95811 |
+|  DOUBLE HASH |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        3.15340 |        3.16854 |       -0.01513 |        1.00480 |
+|    Not Found |       20.00000 |       20.56322 |       -0.56322 |        1.02816 |
++==================================================================================+
+1900

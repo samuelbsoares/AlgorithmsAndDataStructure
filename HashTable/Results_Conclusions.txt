@@ -1,0 +1,17 @@
+RESULTS:
+
++====================== NUMBER OF COMPARISONS FOR ALPHA = 0.50 ====================+
+|       LINEAR |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        1.50000 |        1.50617 |       -0.00617 |        1.00411 |
+|    Not Found |        2.50000 |        2.51064 |       -0.01064 |        1.00426 |
+|    QUADRATIC |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        1.44315 |        1.43240 |        0.01075 |        0.99255 |
+|    Not Found |        2.19315 |        2.14857 |        0.04458 |        0.97967 |
+|  DOUBLE HASH |    THEORETICAL |      EMPIRICAL |      DIFFERNCE |    (THE./EMP.) |
+|        Found |        1.38629 |        1.38279 |        0.00350 |        0.99747 |
+|    Not Found |        2.00000 |        2.00952 |       -0.00952 |        1.00476 |
++==================================================================================+
+
+CONCLUSION:
+
+The obtained (empirical) results seem to confirm the theoretical results. The largest difference occured for the Quadratic Probing when the searched key was Not Found. Even in that case, the error of 0.06101 only represents 2.0326927% of the expected value (2.19315). Therefore, the experiment confirms the theoretical formulae.
